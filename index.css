@@ -1,0 +1,71 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	/* text-align: center; */
+	min-height: 500px;
+	background-image: url('./Components/pattern.jpeg');
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+}
+
+h1,
+h2,
+h3,
+p,
+a {
+	font-family: Helvetica, sans-serif;
+}
+
+h1 {
+	font-size: 48px;
+	color: khaki;
+}
+
+h2 {
+	font-size: 24px;
+	color: white;
+}
+
+@media screen and (min-width: 800px) {
+	h1 {
+		font-size: 128px;
+	}
+	h2 {
+		font-size: 32px;
+	}
+}
+
+.container {
+	display: flex;
+	gap: 10px;
+}
+
+.container > div {
+	width: 33%;
+}
+
+.container > div > img {
+	width: 100%;
+}
+
+.container > div > h2,
+h3,
+p {
+	padding: 8px 6px 8px 8px;
+}
+
+h3,
+p,
+a {
+	font-size: 16px;
+}
+
+a {
+	font-weight: bold;
+	color: blue;
+}
