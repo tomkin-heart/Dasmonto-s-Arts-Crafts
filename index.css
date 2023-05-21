@@ -24,6 +24,7 @@ a {
 h1 {
 	font-size: 48px;
 	color: khaki;
+	max-width: 800px;
 }
 
 h2 {
